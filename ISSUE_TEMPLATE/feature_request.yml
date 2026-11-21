@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an idea for an app
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the problem or need, not just the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could the app help?
+  - type: markdown
+    attributes:
+      value: Taara apps stay small and focused on one job, so some ideas may fit better in another app. Every idea is still read.
